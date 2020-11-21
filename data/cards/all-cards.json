@@ -848,7 +848,7 @@
         {
             "ashes_500_combos": null,
             "ashes_500_costs": null,
-            "attack": 1,
+            "attack": 2,
             "copies": 2,
             "id": 19,
             "images": {
@@ -870,13 +870,8 @@
             "stub": "false-demon",
             "text": [
                 {
-                    "name": "Unit Guard",
-                    "text": "This unit may guard a unit being attacked."
-                },
-                {
-                    "inexhaustible": true,
-                    "name": "Illusion",
-                    "text": "If this unit receives damage as a result of a unit's attack or counter, destroy this unit."
+                    "name": "Nightmare 1",
+                    "text": "When this unit comes into play, you may deal 1 damage to a target exhausted unit."
                 }
             ],
             "type": "Conjuration"
@@ -2689,8 +2684,7 @@
             "cost": [
                 "[[main]]",
                 "1 [[illusion:class]]",
-                "1 [[ceremonial:class]]",
-                "1 [[basic]]"
+                "1 [[ceremonial:class]]"
             ],
             "dice": [
                 "illusion",
@@ -2704,7 +2698,6 @@
             },
             "life": 1,
             "magicCost": {
-                "basic": 1,
                 "ceremonial:class": 1,
                 "illusion:class": 1
             },
@@ -2721,8 +2714,8 @@
             "stub": "stormwind-sniper",
             "text": [
                 {
-                    "name": "Ambush 2",
-                    "text": "When this unit comes into play, you may inflict 2 damage on a target unit or Phoenixborn."
+                    "name": "Ambush 1",
+                    "text": "When this unit comes into play, you may deal 1 damage to a target Phoenixborn."
                 }
             ],
             "type": "Ally",
@@ -3173,13 +3166,13 @@
                 "Masked Wolf"
             ],
             "cost": [
-                "[[main]]"
+                "[[side]]",
+                "1 [[basic]]"
             ],
             "dice": [
                 "illusion"
             ],
             "effectMagicCost": {
-                "basic": 1,
                 "illusion:class": 1
             },
             "id": 69,
@@ -3204,14 +3197,13 @@
                     "cost": [
                         "[[side]]",
                         "[[exhaust]]",
-                        "1 [[illusion:class]]",
-                        "1 [[basic]]"
+                        "1 [[illusion:class]]"
                     ],
                     "text": "Place a [[Masked Wolf]] conjuration onto your battlefield."
                 },
                 {
                     "name": "Focus 1",
-                    "text": "You may change the activation cost of this ability to [[side]] - [[exhaust]] - 1 [[illusion:power]]."
+                    "text": "If you spent any [[illusion:power]] to activate this spell you may take an additional side action this turn."
                 }
             ],
             "type": "Ready Spell",
